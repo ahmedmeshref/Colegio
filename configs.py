@@ -4,7 +4,7 @@ import os
 class Config(object):
     SECRET_KEY = os.urandom(32)
     DEBUG = True
-    # SQLALCHEMY_DATABASE_URI = os.environ.get("IBM_POSTGRESQL") + 'trivia'
+    SQLALCHEMY_DATABASE_URI = os.environ.get("POSTGRESQL") + 'colegio'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
 
